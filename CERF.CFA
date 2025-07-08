@@ -1,0 +1,67 @@
+?¿Ç^+`+*´´¨´´_.-/
+    0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+// Description: This file contains the character set used in the CERF.CFA encoding.
+// Usage: This character set is used for encoding and decoding data in the CERF.CFA format.
+export const CERF_CFA = {
+  name: 'CERF.CFA',
+  description: 'CERF.CFA character set',
+  characters: '¿Ç^+`+*´´¨´´_.-/0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  encoding: 'UTF-8',
+  version: '1.0',
+  // Additional metadata can be added here
+    created: '2023-10-01',
+    modified: '2023-10-01',
+    // Additional metadata can be added here if needed
+    license: 'GPL-3.0',
+    // License information for the character set
+    copyright: 'Copyright (C) 2023 Yaxelsito',
+    // Additional license information can be added here if needed
+    isValid: function (char) {
+        return this.characters.includes(char);
+    },
+    toString: function () {
+        return this.name + ' (' + this.description + ')';
+    },
+    getCharacters: function () {
+        return this.characters.split('');
+    },
+    getEncoding: function () {
+        return this.encoding;
+    },
+    getVersion: function () {
+        return this.version;
+    },
+    getCreated: function () {
+        return this.created;
+    },
+    getModified: function () {
+        return this.modified;
+    },
+    getLicense: function () {
+        return this.license;
+    },
+    getCopyright: function () {
+        return this.copyright;
+    }
+}    
+// This code defines a character set for CERF.CFA encoding, including metadata and utility functions.
+// It can be used to validate characters, retrieve character information, and manage encoding details.
+// The character set includes special characters, digits, lowercase and uppercase letters.
+// The metadata includes creation and modification dates, license information, and copyright details.
+// The utility functions allow for easy access to character set properties and validation.
+// This character set can be used in applications that require encoding and decoding of data in the CER
+F.CFA format.
+// The character set is designed to be extensible, allowing for future modifications and additions.
+// The encoding is specified as UTF-8, which is a common encoding format for text data.
+// The version is set to 1.0, indicating the initial release of this character set
+// The license is set to GPL-3.0, which allows for free use, modification, and distribution under certain conditions.
+// The copyright is attributed to Yaxelsito, indicating ownership of the character set.
+// The character set can be used in various applications, including text processing, data encoding, and
+// decoding tasks. It is suitable for applications that require a specific character set for encoding data.
+// The character set can be easily integrated into existing systems and applications that require CERF.CFA
+// encoding. It provides a structured way to manage character data and ensure compatibility with the CERF.CFA format.
+// The character set can be extended in the future to include additional characters or modifications as needed.
+// The character set is designed to be efficient and easy to use, providing a clear structure for managing
+// character data. It can be utilized in various programming languages and environments that support UTF-8
+// encoding. The character set can be used in applications that require specific character validation and
+// processing, ensuring that only valid characters are used in CERF.CFA encoding.
